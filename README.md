@@ -1,3 +1,6 @@
+Before we start, we're going to be using the sudo command in the terminal. You'll need to use the password that you used to SSH into your server.
+
+
 Step 1: Install apache2
 ```
   sudo apt-get install apache2
@@ -64,24 +67,25 @@ Step 6: Create the wordpress database
     
  
 Step 7: Config Wordpress
-
-
-
+    
     Navigate to
     
     
     
-    ```
-    cd /var/www/html/wordpress/
-    ```
-
- ``` 
-    mv wp-config-sample.php wp-config.php
- ``` 
+    
+    
+   
+    
+   
+   ` cd /var/www/html/wordpress/`
+  
  
- ```
-    sudo nano wp-config.php
- ```  
+   ` mv wp-config-sample.php wp-config.php`
+ 
+ 
+
+    `sudo nano wp-config.php`
+ 
  
       once in the config.php file, you'll need to change the following fields:
       
