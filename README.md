@@ -34,9 +34,13 @@ Step 4: Install wordpress
 Step 5: Change permissions
 
   You will need to use the username you have for SSH here
+  
+  
   ```
     sudo chown -R user:user /var/www/html/
    ``` 
+   
+   
 Step 6: Create the wordpress database
 
   navigate to mysql with  
@@ -61,7 +65,11 @@ Step 6: Create the wordpress database
  
 Step 7: Config Wordpress
 
-    Navigate to 
+
+
+    Navigate to
+    
+    
     
     ```
     cd /var/www/html/wordpress/
@@ -70,17 +78,24 @@ Step 7: Config Wordpress
  ``` 
     mv wp-config-sample.php wp-config.php
  ``` 
+ 
  ```
     sudo nano wp-config.php
  ```  
  
       once in the config.php file, you'll need to change the following fields:
       
+      
+      
+      
         define('DB_NAME', `'database_name_here'`); to `wordpress`
+        
         
         define('DB_USER', `'wordpressuser'`); to `root`
         
+        
         define('DB_PASSWORD', `'password'`); to `your_password`
+        
         
         then ctrl-o to save, then ctrl-x to exit
         
@@ -89,6 +104,7 @@ Step 7: Config Wordpress
  Step 8: Finish the installation in the browser
  
         Enter the IP of your server in the browser followed by /wordpress 
+        
         For example: `127.0.0.1/wordpress`
         
         Enter your site name, admin username, a password and your email address, then click "Install Wordpress"
