@@ -42,12 +42,14 @@ Step 4: Install wordpress
   
 Step 5: Change permissions
 
-  You will need to use the username you have for SSH here
+  You will need to use the username you have for SSH here 
   
   
   ```
-    sudo chown -R user:user /var/www/html/
+    sudo chown -R *user*:*user* /var/www/html/
    ``` 
+   
+   *user* being your ssh username
    
    
 Step 6: Create the wordpress database
