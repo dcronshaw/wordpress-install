@@ -15,7 +15,11 @@ Step 2: Install mysql database
   
 Step 3: Install PHP
 ```
-  sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd php-mysql
+  sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd
+```  
+
+```
+  sudo service apache2 restart
 ```  
 Step 4: Install wordpress
 
@@ -86,7 +90,10 @@ Step 7: Config Wordpress
  
  
 
-    `sudo nano wp-config.php`
+    sudo nano wp-config.php
+ 
+ 
+ 
  
  
       once in the config.php file, you'll need to change the following fields:
@@ -111,7 +118,7 @@ Step 7: Config Wordpress
  
         Enter the IP of your server in the browser followed by /wordpress 
         
-        For example: `127.0.0.1/wordpress`
+        For example: 127.0.0.1/wordpress
         
         Enter your site name, admin username, a password and your email address, then click "Install Wordpress"
         
