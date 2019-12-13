@@ -44,6 +44,8 @@ Step 6: Create the wordpress database
   mysql -u root -p 
   ```
   It will prompt you for the password you created earlier
+  
+  
   ```
     CREATE DATABASE wordpress;
   ```  
