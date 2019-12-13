@@ -2,7 +2,9 @@ Before we start, we're going to be using the sudo command in the terminal. You'l
 
 
 Step 1: Install apache2
+
 ```
+  sudo apt-get update
   sudo apt-get install apache2
 ``` 
 Step 2: Install mysql database
