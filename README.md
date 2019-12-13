@@ -1,8 +1,11 @@
 Step 1: Install apache2
+
   sudo apt-get install apache2
   
 Step 2: Install mysql database
+
   sudo apt-get install mysql-server
+  
   You will be prompted for a password, default username will be root
   
 Step 3: Install PHP
