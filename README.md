@@ -1,5 +1,7 @@
 Before we start, we're going to be using the sudo command in the terminal. You'll need to use the password that you used to SSH into your server.
 
+Any time the install stops with a y/n, type y and press enter.
+
 
 Step 1: Install apache2
 
